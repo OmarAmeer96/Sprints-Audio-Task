@@ -4,7 +4,7 @@
 
 | Recording Screen | Recorded Screen |
 | ---------------- | --------------- |
-| <img src=""/>    | <img src=""/>   |
+| <img src="https://github.com/user-attachments/assets/9d92b599-2534-4f91-b3d6-09fbd4ebef7e"/>    | <img src="https://github.com/user-attachments/assets/6a2ee40f-3390-4a9b-8ec2-cb323bded3dc"/>   |
 
 ## Overview
 
