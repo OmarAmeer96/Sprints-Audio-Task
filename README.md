@@ -1,26 +1,28 @@
-# Sprints Audio Player Task
+# Sprints Audio Recorder Task
 
 ## Screenshots
 
-| Map Screen    |
-| ------------- |
-| <img src=""/> |
+| Recording Screen | Recorded Screen |
+| ---------------- | --------------- |
+| <img src=""/>    | <img src=""/>   |
 
 ## Overview
 
-This Flutter application integrates Google Maps to provide location-based services. It allows users to view maps, search for places, and get directions. The app utilizes the `google_maps_flutter` package to embed Google Maps in the application.
+This Flutter application is an audio recorder that allows users to record, play, and manage audio files. The app utilizes the `flutter_sound` package to handle audio playback and recording functionalities.
 
 ## Features
 
 - **Cross-Platform Support:** Runs seamlessly on Android and iOS.
-- **Interactive Maps:** Provides interactive maps with zoom and pan capabilities.
-- **Place Search:** Allows users to search for places and view details.
-- **Directions:** Offers directions and route planning between locations.
+- **Record Audio:** Allows users to record high-quality audio.
+- **Playback:** Users can play recorded audio files.
+- **Manage Recordings:** Users can view, delete, and manage their recordings.
 
 ## Dependencies
 
-- [google_maps_flutter](https://pub.dev/packages/google_maps_flutter): A Flutter plugin for integrating Google Maps in mobile applications.
-- [geolocator](https://pub.dev/packages/geolocator): A Flutter plugin for accessing geolocation and location-based services.
+- [flutter_sound](https://pub.dev/packages/flutter_sound): A Flutter plugin for handling audio playback and recording.
+- [pretty_animated_buttons](https://pub.dev/packages/pretty_animated_buttons): A Flutter plugin for animated buttons.
+- [path_provider](https://pub.dev/packages/path_provider): A Flutter plugin for finding commonly used locations on the filesystem.
+- [permission_handler](https://pub.dev/packages/permission_handler): A Flutter plugin for handling permissions.
 
 ## Getting Started
 
@@ -45,4 +47,4 @@ This Flutter application integrates Google Maps to provide location-based servic
 
 ## Usage
 
-Upon launching the app, the main screen will display a map centered on the user's current location. Users can search for places, view place details, and get directions to a selected location.
+Upon launching the app, the main screen will display options to start a new recording or view existing recordings. Users can record audio, play back recordings, and manage their audio files.

@@ -36,6 +36,8 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_sound: ^9.22.0
   pretty_animated_buttons: ^0.0.2
+  path_provider: ^2.1.5
+  permission_handler: ^10.2.0
 
 dev_dependencies:
   flutter_test:
